@@ -1,9 +1,12 @@
-# Abdullah Shabbir — Portfolio
+# Abdullah Shabbir — SQA Engineer Portfolio
 
-A single-page portfolio site for GitHub Pages.
+This repository contains the static export of Abdullah Shabbir's SQA Engineer portfolio, deployed with GitHub Pages.
 
-Live site: https://abdullahbhatti141.github.io
+Live site: https://abdullahbhatti141.github.io/
 
-## Customize
+## Local files
 
-Edit `index.html` to replace the project placeholders, bio, and contact address. Edit `style.css` to adjust colors and layout.
+- `index.html` — portfolio content and structure
+- `styles.css` — responsive styling and themes
+- `app.js` — menu, theme toggle, copy buttons, and interactions
+- `portrait.jpg` — profile image
