@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio website of Abdullah Shabbir — building thoughtful digital experiences.">
+  <title>Abdullah Shabbir — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Abdullah Shabbir home"><span>AS</span><strong>Abdullah Shabbir</strong></a>
+    <nav aria-label="Main navigation">
+      <a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="header-cta" href="#contact">Let’s talk <span>↗</span></a>
+  </header>
+
+  <main id="top">
+    <section class="hero section-wrap">
+      <p class="eyebrow"><span class="status-dot"></span> Available for selected projects</p>
+      <h1>Building thoughtful<br><em>digital experiences.</em></h1>
+      <div class="hero-bottom">
+        <p class="hero-copy">I’m Abdullah Shabbir. This is my corner of the web — a place for ideas, experiments, and work worth sharing.</p>
+        <a class="circle-link" href="#work" aria-label="Scroll to selected work">↓</a>
+      </div>
+    </section>
+
+    <section id="work" class="section-wrap work-section">
+      <div class="section-heading"><p class="eyebrow">01 / Selected work</p><p class="muted">A few things I’m exploring</p></div>
+      <div class="work-grid">
+        <article class="project-card project-dark"><div class="project-number">01</div><div><p class="tag">Digital experience</p><h2>Project One</h2><p>A focused space for a product, idea, or case study. Replace this with your own work.</p><a href="#contact">View project <span>↗</span></a></div></article>
+        <article class="project-card project-lilac"><div class="project-number">02</div><div><p class="tag">Creative build</p><h2>Project Two</h2><p>A flexible story for something you’ve designed, built, or helped bring to life.</p><a href="#contact">View project <span>↗</span></a></div></article>
+        <article class="project-card project-orange"><div class="project-number">03</div><div><p class="tag">Experiment</p><h2>Project Three</h2><p>A home for your latest experiment, collaboration, or favorite personal project.</p><a href="#contact">View project <span>↗</span></a></div></article>
+      </div>
+    </section>
+
+    <section id="about" class="about-section section-wrap">
+      <div class="section-heading"><p class="eyebrow">02 / About</p></div>
+      <div class="about-grid"><h2>Curious by default.<br><em>Intentional by design.</em></h2><div class="about-copy"><p>I care about making digital work that feels clear, useful, and distinctly human. I’m always learning, testing new ideas, and looking for the next interesting problem to solve.</p><div class="skills"><span>Web</span><span>Design</span><span>Ideas</span><span>Learning</span></div></div></div>
+    </section>
+
+    <section id="contact" class="contact-section section-wrap"><p class="eyebrow">03 / Contact</p><h2>Have an idea?<br><em>Let’s make it real.</em></h2><a class="email-link" href="mailto:hello@abdullahshabbir.github.io">hello@abdullahshabbir.github.io <span>↗</span></a><div class="contact-footer"><span>© <span id="year"></span> Abdullah Shabbir</span><a href="https://github.com/AbdullahShabbir" target="_blank" rel="noreferrer">GitHub ↗</a></div></section>
+  </main>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
